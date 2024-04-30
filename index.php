@@ -5,7 +5,7 @@
     </head>
 
     <body>
-        <h1 align="center"> YURR TEST </h1>
-        <p> This is a PARAGRAPH </p>
+        <h1 align="center"> Your Friendly Neighborhood Spidey </h1>
+        <p align="center"> HEHE BOI </p>
     </body>
 </html>
