@@ -5,7 +5,7 @@
     </head>
 
     <body>
-        <h1> YURR TEST </h1>
+        <h1 align="center"> YURR TEST </h1>
         <p> This is a PARAGRAPH </p>
     </body>
 </html>
