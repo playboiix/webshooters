@@ -2,6 +2,7 @@
     <head>
         <title>Spidey Station</title>
         <link rel="icon" type="image/x-icon" href="spidey.ico">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
