@@ -2,12 +2,12 @@ body {
     background-color: rgb(32, 31, 31);
     background-image: url("spidey\ background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position: center;
 }
 
 h1, p {
     color: white;
-    background-color: black;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
