@@ -6,8 +6,8 @@
    </head>
 
    <body>
-      <h1> Your Friendly Neighborhood Spider-Man! </h1>
-      <p> HEHE BOI </p>
+      <h1>Web-Shooters Monitor</h1>
+      <p>Here comes our friendly neighborhood Spider-Man!</p>
       <div class="box"> da video goes here </div>
       <button> Where is Spidey?? </button>
    </body>
