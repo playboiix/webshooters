@@ -12,7 +12,7 @@
       </div>
       <br/>
       <div class = "mainblox">
-         <div class = "stats">HMPH</div>
+         <div class = "stats">bla bla gyro scope <br/> yeah yeah shoot</div>
          <div class="video">da video goes here</div>
       </div>
    </body>
