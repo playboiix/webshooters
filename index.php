@@ -10,6 +10,9 @@
          <h1>Web-Shooters Monitor</h1>
          <h2>Here comes our Friendly Neighborhood Spider-Man!</h2>
       </div>
-      <div class="video"> da video goes here </div>
+      <br/>
+      <div class="video">
+         da video goes here 
+      </div>
    </body>
 </html>
