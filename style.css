@@ -26,6 +26,10 @@ h1, h2 {
     border-radius: 20px;
 }
 
+.container {
+    justify-content: center;
+}
+
 .stats {
     width: 400px;
     height: 400px;

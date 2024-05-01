@@ -11,11 +11,13 @@
          <h2>Here comes our Friendly Neighborhood Spider-Man!</h2>
       </div>
       <br/>
-      <div class = "stats">
-         HMPH
-      </div>
-      <div class="video">
-      da video goes here 
+      <div class = "container">
+         <div class = "stats">
+            HMPH
+         </div>
+         <div class="video">
+         da video goes here 
+         </div>
       </div>
    </body>
 </html>
