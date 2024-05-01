@@ -38,7 +38,7 @@ button {
     text-shadow: 0 0 .5em var(--glow-color);
     position: relative;
     transition: all 0.3s;
-    align-items: center;
+    margin: 0 auto;
    }
    
    button::after {
