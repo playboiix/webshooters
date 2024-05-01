@@ -29,6 +29,7 @@ h1, h2 {
 .mainblox {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .stats {

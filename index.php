@@ -12,12 +12,8 @@
       </div>
       <br/>
       <div class = "mainblox">
-         <div class = "stats">
-            HMPH
-         </div>
-         <div class="video">
-         da video goes here 
-         </div>
+         <div class = "stats">HMPH</div>
+         <div class="video">da video goes here</div>
       </div>
    </body>
 </html>
