@@ -2,7 +2,7 @@ body {
     background-color: rgb(32, 31, 31);
     background-image: url("spidey\ background.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 h1, p {
