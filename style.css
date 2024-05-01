@@ -1,5 +1,9 @@
 body {
     background-color: rgb(32, 31, 31);
+    background-image: url("spidey\ background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
 }
 
 h1, p {
@@ -13,10 +17,6 @@ h1, p {
     height: 600px;
     color: white;
     background-color: black;
-    background-image: url("spidey\ background.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
     border: 5px solid blue;
     margin: 0 auto;
     padding: 10px;
