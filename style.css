@@ -19,6 +19,7 @@ h1, p {
     background-color: black;
     border: 5px solid purple;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .video {
