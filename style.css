@@ -38,6 +38,9 @@ h1, h2 {
     background-color: black;
     padding: 10px;
     border: 5px solid pink;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .video {
