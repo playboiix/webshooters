@@ -26,12 +26,13 @@ h1, h2 {
     border-radius: 20px;
 }
 
-.container {
+.mainblox {
     display: flex;
     justify-content: center;
 }
 
 .stats {
+    color: white;
     width: 400px;
     height: 400px;
     background-color: black;

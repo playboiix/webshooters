@@ -11,7 +11,7 @@
          <h2>Here comes our Friendly Neighborhood Spider-Man!</h2>
       </div>
       <br/>
-      <div class = "container">
+      <div class = "mainblox">
          <div class = "stats">
             HMPH
          </div>
