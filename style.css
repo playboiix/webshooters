@@ -32,7 +32,7 @@ h1, h2 {
 }
 
 .stats {
-    width: 200px;
+    width: auto;
     height: 400px;
     background-color: black;
     padding: 10px;
@@ -40,7 +40,7 @@ h1, h2 {
 }
 
 .video {
-    width: auto;
+    width: 800px;
     height: 600px;
     color: white;
     background-color: black;
