@@ -11,7 +11,7 @@ h1, p {
 .box {
     width: 800px;
     height: 600px;
-    background-color: white;
+    background-color: transparent;
     border: 5px solid blue;
     margin: 0 auto;
     padding: 10px;
