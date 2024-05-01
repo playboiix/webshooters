@@ -7,14 +7,17 @@ body {
 }
 
 h1, p {
-    width: auto;
-    color: white;
-    margin: 0 auto;
-    padding: 10px;
-    border: 1px solid red;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headings {
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
     background-color: black;
+    border: 5px solid red;
     overflow: hidden;
 }
 
