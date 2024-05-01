@@ -8,7 +8,7 @@
    <body>
       <div class = "headings">
          <h1>Web-Shooters Monitor</h1>
-         <p>Here comes our Friendly Neighborhood Spider-Man!</p>
+         <h2>Here comes our Friendly Neighborhood Spider-Man!</h2>
       </div>
       <div class="video"> da video goes here </div>
    </body>
