@@ -6,8 +6,10 @@
    </head>
 
    <body>
-      <h1 class="headings">Web-Shooters Monitor</h1>
-      <p>Here comes our Friendly Neighborhood Spider-Man!</p>
+      <div class = "headings">
+         <h1>Web-Shooters Monitor</h1>
+         <p>Here comes our Friendly Neighborhood Spider-Man!</p>
+      </div>
       <div class="video"> da video goes here </div>
    </body>
 </html>
