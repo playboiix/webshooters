@@ -40,7 +40,7 @@ h1, h2 {
 }
 
 .video {
-    width: 800px;
+    width: auto;
     height: 600px;
     color: white;
     background-color: black;
