@@ -13,11 +13,11 @@ h1, p {
 }
 
 .headings {
-    width: 50%;
+    width: auto;
     margin: 0 auto;
     padding: 10px;
     background-color: black;
-    border: 5px solid red;
+    border: 5px solid purple;
     overflow: hidden;
 }
 
