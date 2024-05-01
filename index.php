@@ -6,7 +6,7 @@
     </head>
 
     <body>
-        <h1 align="center"> Your Friendly Neighborhood Spidey </h1>
-        <p align="center"> HEHE BOI </p>
-    </body>
+        <h1> Your Friendly Neighborhood Spidey </h1>
+        <p> HEHE BOI </p>
+      </body>
 </html>
