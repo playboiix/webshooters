@@ -13,8 +13,8 @@
       <br/>
       <div class = "mainblox">
          <div class = "stats">bla bla gyro scope <br/> yeah yeah shoot</div>
-         <div class= "video">da video goes here</div>
+         <div class = "video">da video goes here</div>
       </div>
-      <button class= "glowbutton">fuck me</button>
+      <button class = "glowbutton">fuck me</button>
    </body>
 </html>
