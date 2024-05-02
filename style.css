@@ -16,51 +16,6 @@ h1, h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.headings {
-    width: 30%;
-    margin: 0 auto;
-    padding: 10px;
-    background-color: black;
-    border: 5px solid rgb(9, 8, 105);
-    overflow: hidden;
-    border-radius: 20px;
-}
-
-.mainblox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.stats {
-    color: white;
-    width: 400px;
-    height: 400px;
-    background-color: black;
-    padding: 10px;
-    border: 5px solid green;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    max-width: 400px;
-}
-
-.video {
-    width: 800px;
-    height: 600px;
-    color: white;
-    background-color: black;
-    border: 5px solid rgb(0, 140, 255);
-    margin: 0 auto;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-}
-
 button {
     --glow-color: rgb(217, 176, 255);
     --glow-spread-color: rgba(191, 123, 255, 0.781);
@@ -109,3 +64,48 @@ button {
            0 0 2.5em 2em var(--glow-spread-color),
            inset 0 0 .5em .25em var(--glow-color);
    }
+   
+.headings {
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    border: 5px solid rgb(9, 8, 105);
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.mainblox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats {
+    color: white;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    padding: 10px;
+    border: 5px solid green;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-width: 400px;
+}
+
+.video {
+    width: 800px;
+    height: 600px;
+    color: white;
+    background-color: black;
+    border: 5px solid rgb(0, 140, 255);
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
