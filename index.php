@@ -15,6 +15,6 @@
          <div class = "stats">bla bla gyro scope <br/> yeah yeah shoot</div>
          <div class = "video">da video goes here</div>
       </div>
-      <button>fuck me</button>
    </body>
+   <button>fuck me</button>
 </html>
