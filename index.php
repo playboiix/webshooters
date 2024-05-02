@@ -16,5 +16,4 @@
          <div class = "video">da video goes here</div>
       </div>
    </body>
-   <button>fuck me</button>
 </html>
