@@ -45,8 +45,6 @@ h1, h2 {
     justify-content: center;
     flex: 1;
     max-width: 400px;
-    position: absolute;
-    top: 50%;
 }
 
 .video {
