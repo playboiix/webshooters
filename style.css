@@ -34,8 +34,8 @@ h1, h2 {
 
 .stats {
     color: white;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     background-color: black;
     padding: 10px;
     border: 5px solid green;
@@ -43,7 +43,6 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 400px;
 }
 .dummy {
     flex:1;
