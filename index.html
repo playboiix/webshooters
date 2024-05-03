@@ -20,7 +20,7 @@
       
       <script>
          setInterval(async function(){
-            const result = await fetch("http://10.0.0.26/picture");
+            const result = await fetch("http://10.0.0.26:80/picture");
             const image = await result.blob();
             const url = URL.createObjectURL(image);
             document.getElementById("video").src=url;
