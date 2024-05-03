@@ -13,7 +13,19 @@
       <br/>
       <div class = "mainblox">
          <div class = "stats">bla bla gyro scope <br/> yeah yeah shoot</div>
-         <div class = "video">da video goes here</div>
+         <div class = "video">
+            <img id="video">  </img>
+         </div>
       </div>
+
+      <script>
+         setInterval(async function(){
+            const result = await fetch("http://10.149.0.61:81/stream");
+            const image = await result.blob();
+            const url = URL.createObjectURL(image);
+            document.getElementById("video").src=url;
+         })
+      </script>
+      
    </body>
 </html>
