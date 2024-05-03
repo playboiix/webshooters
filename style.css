@@ -46,6 +46,10 @@ h1, h2 {
     flex: 1;
     max-width: 400px;
 }
+.dummy {
+    flex:1;
+    max-width: 400px;
+}
 
 .video {
     width: 800px;
