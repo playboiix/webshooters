@@ -19,8 +19,8 @@
       </div>
       
       <script>
+         const interval = 1000 / 60;
          setInterval(async function(){
-            const interval = 1000 / 60;
             const result = await fetch("http://10.0.0.26/picture");
             const image = await result.blob();
             const url = URL.createObjectURL(image);
