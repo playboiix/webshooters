@@ -23,7 +23,7 @@
             const image = await result.blob();
             const url = URL.createObjectURL(image);
             document.getElementById("video").src=url;};
-            await new Promise(resolve => setTimeout(resolve, 1000/50));
+            await new Promise(resolve => setTimeout(resolve, 1000/30));
          };
 
          main();
