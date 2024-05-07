@@ -22,9 +22,7 @@
             const result = await fetch("http://10.42.0.146/picture");
             const image = await result.blob();
             const url = URL.createObjectURL(image);
-            document.getElementById("video").src=url;
-            await new Promise(resolve => setTimeout(resolve, 1000/30));
-         };
+            document.getElementById("video").src=url;};
       };
          main();
       </script>
