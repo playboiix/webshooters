@@ -17,15 +17,22 @@
       </div>
       
       <script>
-         async function getvideo(){
-            while(true){
-            const result = await fetch("http://10.0.0.26/picture");
-            const image = await result.blob();
-            const url = URL.createObjectURL(image);
-            document.getElementById("video").src=url;
-         };
-      };
-      getvideo();
+      //    async function getvideo(){
+      //       while(true){
+      //       const result = await fetch("http://10.0.0.26/picture");
+      //       const image = await result.blob();
+      //       const url = URL.createObjectURL(image);
+      //       document.getElementById("video").src=url;
+      //    };
+      // };
+      // getvideo();
+         document.addEventListener('DOMContentLoaded', function (event) {
+         var streamUrl = "10.0.0.26/picture"
+         const view = document.getElementById('stream')
+         view.src = `${streamUrl}/picture`
+         show(viewContainer)
+         })
+         
       </script>
    </body>
 </html>
