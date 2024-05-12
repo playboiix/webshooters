@@ -17,32 +17,15 @@
       </div>
       
       <script>
-      //    async function getvideo(){
-      //       while(true){
-      //       const result = await fetch("http://10.0.0.26/picture");
-      //       const image = await result.blob();
-      //       const url = URL.createObjectURL(image);
-      //       document.getElementById("video").src=url;
-      //    };
-      // };
-      // getvideo();
-      async function getvideo(){
-         document.addEventListener('DOMContentLoaded', function (event) {
-         const streamUrl = "http://10.0.0.26/picture";
-         // document.getElementById("video").src=streamUrl;
-         const videoElement = document.getElementById("video");
-         videoElement.src = streamUrl;
-                 // Function to update image
-        const updateImage = () => {
-            videoElement.src = streamUrl + "?t=" + new Date().getTime(); // Add timestamp to prevent caching
-        };
-
-        // Update image every 5 seconds (adjust as needed)
-        setInterval(updateImage, 500);
-         });
+         async function getvideo(){
+            while(true){
+            const result = await fetch("http://10.0.0.26/picture");
+            const image = await result.blob();
+            const url = URL.createObjectURL(image);
+            document.getElementById("video").src=url;
+         };
       };
       getvideo();
-
       </script>
    </body>
 </html>
