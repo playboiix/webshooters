@@ -27,7 +27,8 @@
       };
          async function getstats(){
             while(true){
-               const result = await fetch("http://10.0.0.26/stats");
+               const response = await fetch("http://10.0.0.26/stats");
+               const statsText = await response.text();
                document.getElementById("stats").textContent = statsText;
             };
          };
