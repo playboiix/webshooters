@@ -22,9 +22,10 @@
             const result = await fetch("http://10.42.0.146/picture");
             const image = await result.blob();
             const url = URL.createObjectURL(image);
-            document.getElementById("video").src=url;};
+            document.getElementById("video").src=url;
+         };
       };
-         main();
+      main();
       </script>
    </body>
 </html>
