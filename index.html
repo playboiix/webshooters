@@ -29,10 +29,20 @@
       async function getvideo(){
          document.addEventListener('DOMContentLoaded', function (event) {
          const streamUrl = "http://10.0.0.26/picture";
-         document.getElementById("video").src=streamUrl;
+         // document.getElementById("video").src=streamUrl;
+         const videoElement = document.getElementById("video");
+         videoElement.src = streamUrl;
+                 // Function to update image
+        const updateImage = () => {
+            videoElement.src = streamUrl + "?t=" + new Date().getTime(); // Add timestamp to prevent caching
+        };
+
+        // Update image every 5 seconds (adjust as needed)
+        setInterval(updateImage, 5000);
          });
       };
       getvideo();
+
       </script>
    </body>
 </html>
