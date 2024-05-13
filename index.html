@@ -19,7 +19,7 @@
       <script>
          async function getvideo(){
             while(true){
-            const result = await fetch("http://10.0.0.26/picture");
+            const result = await fetch("http://10.42.0.146/picture");
             const image = await result.blob();
             const url = URL.createObjectURL(image);
             document.getElementById("video").src=url;
@@ -27,7 +27,7 @@
       };
          async function getstats(){
             while(true){
-               const response = await fetch("http://10.0.0.26/stats");
+               const response = await fetch("http://10.42.0.146/stats");
                const statsText = await response.text();
                document.getElementById("stats").textContent = statsText;
             };
