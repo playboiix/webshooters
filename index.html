@@ -12,7 +12,7 @@
       </div>
       <br/>
       <div class = "mainblox">
-         <div class = "stats">Temperature Monitor (in Degrees Celcius)
+         <div class = "stats">
             <div id = "stats"></div>
          </div>
          <img class = "video" id="video"></img>
@@ -34,7 +34,7 @@
             while(true){
                const response = await fetch("http://10.42.0.146/stats");
                const statsText = await response.text();
-               document.getElementById("stats").textContent = statsText;
+               document.getElementById("stats").textContent = "Temperature Monitor (in Degrees Celcius) " + statsText;
             };
          };
       getvideo();
