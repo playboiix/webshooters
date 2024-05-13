@@ -26,12 +26,6 @@ h1, h2 {
     border-radius: 20px;
 }
 
-.mainblox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .statsbox {
     color: white;
     width: 200px;
