@@ -49,6 +49,13 @@ h1, h2 {
     text-decoration: underline;
 }
 
+.statsbanner {
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    text-decoration: underline;
+}
+
 .video {
     width: 800px;
     height: 600px;
