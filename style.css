@@ -27,6 +27,7 @@ h1, h2, h3 {
 }
 
 .mainblox {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
