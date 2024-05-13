@@ -47,11 +47,6 @@ h1, h2 {
     text-underline-position: auto;
 }
 
-.stats {
-    align-items: center;
-    justify-content: center;
-}
-
 .video {
     width: 800px;
     height: 600px;
