@@ -22,9 +22,12 @@
          async function getvideo(){
             while(true){
             const result = await fetch("http://10.42.0.146/picture");
-            const image = await result.blob();
-            const url = URL.createObjectURL(image);
-            document.getElementById("video").src=url;
+            if (result.status == 200)
+            {
+               const image = await result.blob();
+               const url = URL.createObjectURL(image);
+               document.getElementById("video").src=url;
+            }
          };
       };
          async function getstats(){
